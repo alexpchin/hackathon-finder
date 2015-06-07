@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Provider:</strong>
+  <%= @event.provider %>
+</p>
+
+<p>
+  <strong>External:</strong>
+  <%= @event.external_id %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @event.content %>
+</p>
+
+<%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Back', events_path %>
